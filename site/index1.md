@@ -1,9 +1,0 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>HELLO COURSERA!</title>
-</head>
-<body>
-<h1>HELLO COURSERA! Its a great course!<h1>
-</body>
-</html>
