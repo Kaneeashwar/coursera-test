@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>PSEUDO SELECTORS</title>
+	<style>
+		header li{
+			list-style: none;
+		}
+		a:link, a:visited{
+			text-decoration: none;
+			background-color: black;
+			border: 1px solid blue;
+			color: white;
+			display: block;
+			width: 200px;
+			text-align: center;
+			margin-bottom: 1px;
+		}
+		a:hover, a:active{
+			background-color: green;
+			color: yellow;
+		}
+		header li:nth-child(2){
+			font-style: italic;
+		}
+		section div:nth-child(even){
+			background-color: gray;
+            width: 200px;
+		}
+		section div:nth-child(odd):hover{
+			background-color: black;
+			color: white;
+			width: 200px;
+			cursor: pointer;
+		}
+
+	</style>
+
+</head>
+<body>
+	<h1>PSEUDO SELECTORS</h1>
+	<header>
+		<ul>
+			<li><a href="images.html">IMAGES</a></li>
+			<li><a href="https://www.youtube.com" target="_blank">YOUTUBE!!</a></li>
+			<li><a href="https://www.google.com" target="_blank">ACCESS TO GOOGLE</a></li>
+		</ul>
+		<section>
+			<div>DIV1</div>
+			<div>DIV2</div>
+			<div>DIV3</div>
+			<div>DIV4</div>
+			<div>DIV5</div>
+			<div>DIV6</div>
+
+		</section>
+	</header>
+</body>
+</html>
