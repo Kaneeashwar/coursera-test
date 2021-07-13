@@ -12,11 +12,11 @@
 /*
 Hello Yaakov
 Good Bye John
-Good Bye Ken
-Good Bye Aron
+Good Bye Jen
+Good Bye Jason
 Hello Paul
-Hello Kanee
-Hello Sri
+Hello Frank
+Hello Larry
 Hello Paula
 Hello Laura
 Good Bye Jim
@@ -30,7 +30,7 @@ WARNING!!! WARNING!!!
 
 (function () {
 
-var names = ["Yaakov", "John", "Ken", "Aron", "Paul", "Kanee", "Sri", "Paula", "Laura", "Jim"];
+var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larr", "Paula", "Laura", "Jim"];
 
 for (var i = 0; i < names.length; i++) {
   var firstLetter = names[i].charAt(0).toLowerCase();
